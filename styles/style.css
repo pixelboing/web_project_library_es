@@ -290,3 +290,106 @@
   font-size: 14px;
   margin: 0;
 }
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.step {
+  flex-basis: 220px;
+  padding: 40px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  padding: 60px 80px;
+  color: #ffffff;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+}
+
+.footer__logo {
+  height: 80px;
+  width: 58px;
+  margin-bottom: 100px;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  padding-top: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  font-size: medium;
+}
