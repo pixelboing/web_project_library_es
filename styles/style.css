@@ -382,7 +382,7 @@
   display: flex;
   color: white;
   text-decoration: none;
-  align-items: flex-end;
+  align-items: center;
   column-gap: 10px;
 }
 
